@@ -6,7 +6,10 @@ export default defineConfig(({ command, mode }) => {
   const env = loadEnv(mode, process.cwd());
 
   return {
-    base: command === 'build' ? env.VITE_BASE_PATH : '/',
+    base: '/',
+    preview: {
+     allowedHosts: ['https://dsf-study.netlify.app/'],
+    },
     plugins: [
       react({ devTarget: 'es2022' }),
     ],
