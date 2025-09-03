@@ -3,18 +3,13 @@
   "studyMetadata": {
     "title": "Data Serialization Formats Study",
     "version": "pilot",
-    "authors": [
-      "Andrew Mcnutt, Shiyi He"
-    ],
+    "authors": [],
     "date": "2024-11-18",
     "description": "A User Study on the usability of Data Serialization Formats.",
-    "organizations": [
-      "University of Utah",
-      "SCI"
-    ]
+    "organizations": []
   },
   "uiConfig": {
-    "contactEmail": "shiyi.he@utah.edu",
+    "contactEmail": "",
     "helpTextPath": "a-usability-study-config/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
@@ -24,9 +19,7 @@
     "urlParticipantIdParam": "PROLIFIC_PID",
     "participantNameField": "introduction.prolificId"
   },
-  "importedLibraries": [
-    "nasa-tlx"
-  ],
+  "importedLibraries": ["nasa-tlx"],
   "components": {
     "introduction": {
       "type": "markdown",
@@ -52,10 +45,7 @@
           "required": true,
           "location": "belowStimulus",
           "type": "radio",
-          "options": [
-            "Yes, I am an AI",
-            "I am not an AI"
-          ]
+          "options": ["Yes, I am an AI", "I am not an AI"]
         }
       ]
     },
@@ -112,13 +102,9 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-json-part1",
@@ -143,13 +129,9 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-json-part2",
@@ -174,13 +156,9 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-jsonc-part1",
@@ -205,17 +183,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-jsonc-part2",
-          "answer": ["A","B","C","D"]
+          "answer": ["A", "B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -236,13 +210,9 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-json5-part1",
@@ -267,17 +237,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-json5-part2",
-          "answer": ["A","B","C","D"]
+          "answer": ["A", "B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -298,16 +264,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-hjson-part1",
-          "answer": ["A","C"]
+          "answer": ["A", "C"]
         }
       ],
       "allowFailedTraining": true,
@@ -328,16 +291,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-hjson-part2",
-          "answer": ["A","B","C","D"]
+          "answer": ["A", "B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -358,16 +318,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-yaml-part1",
-          "answer": ["B","C","D"]
+          "answer": ["B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -388,16 +345,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-yaml-part2",
-          "answer": ["B","C","D"]
+          "answer": ["B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -418,16 +372,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-toml-part1",
-          "answer": ["B","D"]
+          "answer": ["B", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -448,16 +399,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-toml-part2",
-          "answer": ["A","B","D"]
+          "answer": ["A", "B", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -478,16 +426,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-xml-part1",
-          "answer": ["A","B"]
+          "answer": ["A", "B"]
         }
       ],
       "allowFailedTraining": true,
@@ -508,16 +453,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-xml-part2",
-          "answer": ["B","D"]
+          "answer": ["B", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -532,23 +474,26 @@
     "post-task-question": {
       "type": "questionnaire",
       "response": [
-      {"id": "difficulty",
-        "prompt": "How difficult was this question?",
-        "type": "likert",
-        "numItems":7,
-        "rightLabel": "Very difficult",
-        "leftLabel": "Very easy",          
-        "required": true
-      }, 
-      {"id": "confidence",
-      "prompt": "How confident are you in your answer?",
-      "type": "likert",
-      "numItems":7,
-      "rightLabel": "Very confident",
-      "leftLabel": "Very unsure",          
-      "required": true
-     }]
-    }, 
+        {
+          "id": "difficulty",
+          "prompt": "How difficult was this question?",
+          "type": "likert",
+          "numItems": 7,
+          "rightLabel": "Very difficult",
+          "leftLabel": "Very easy",
+          "required": true
+        },
+        {
+          "id": "confidence",
+          "prompt": "How confident are you in your answer?",
+          "type": "likert",
+          "numItems": 7,
+          "rightLabel": "Very confident",
+          "leftLabel": "Very unsure",
+          "required": true
+        }
+      ]
+    },
     "reading-task-config-json-1": {
       "helpTextPathOverride": "a-usability-study-config/assets/tutorial/json/tutorial-json.md",
       "meta": {
@@ -560,7 +505,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -578,9 +526,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -602,7 +548,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -620,9 +569,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -644,7 +591,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -662,9 +612,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -686,7 +634,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -694,7 +645,16 @@
           "prompt": "4. Some top-level keys in the JSON file contain nested structures, meaning they have child key-value pairs. For example, 'repository' is a valid answer because it includes both 'type' and 'url' as nested keys. Which of the following keys do not have this kind of nested structure?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["repository", "author", "keywords","exports","dependencies","devDependencies","scripts","engines"],
+          "options": [
+            "repository",
+            "author",
+            "keywords",
+            "exports",
+            "dependencies",
+            "devDependencies",
+            "scripts",
+            "engines"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -704,9 +664,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -728,7 +686,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -736,7 +697,15 @@
           "prompt": "5. In the 'dependencies' section, any dependency with a version number of 5.0.0 or higher may potentially cause compatibility issues. Which of the following dependencies meet this criterion?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["d3-array", "d3-contour", "d3-delaunay", "d3-scale","d3-time-format","@rollup/plugin-json","eslint"],
+          "options": [
+            "d3-array",
+            "d3-contour",
+            "d3-delaunay",
+            "d3-scale",
+            "d3-time-format",
+            "@rollup/plugin-json",
+            "eslint"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -746,9 +715,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -770,7 +737,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -788,9 +758,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -812,7 +780,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -830,9 +801,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -854,7 +823,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -872,9 +844,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -896,7 +866,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -904,7 +877,16 @@
           "prompt": "4. Some top-level keys in the JSON file contain nested structures, meaning they have child key-value pairs. For example, 'repository' is a valid answer because it includes both 'type' and 'url' as nested keys. Which of the following keys do not have this kind of nested structure?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["repository", "author", "keywords","exports","dependencies","devDependencies","scripts","engines"],
+          "options": [
+            "repository",
+            "author",
+            "keywords",
+            "exports",
+            "dependencies",
+            "devDependencies",
+            "scripts",
+            "engines"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -914,9 +896,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -938,7 +918,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -946,7 +929,15 @@
           "prompt": "5. In the 'dependencies' section, any dependency with a version number of 5.0.0 or higher may potentially cause compatibility issues. Which of the following dependencies meet this criterion?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["d3-array", "d3-contour", "d3-delaunay", "d3-scale","d3-time-format","@rollup/plugin-json","eslint"],
+          "options": [
+            "d3-array",
+            "d3-contour",
+            "d3-delaunay",
+            "d3-scale",
+            "d3-time-format",
+            "@rollup/plugin-json",
+            "eslint"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -956,9 +947,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -980,7 +969,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -998,9 +990,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1022,7 +1012,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1040,9 +1033,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1064,7 +1055,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1082,9 +1076,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1106,7 +1098,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1114,7 +1109,16 @@
           "prompt": "4. Some top-level keys in the JSON file contain nested structures, meaning they have child key-value pairs. For example, 'repository' is a valid answer because it includes both 'type' and 'url' as nested keys. Which of the following keys do not have this kind of nested structure?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["repository", "author", "keywords","exports","dependencies","devDependencies","scripts","engines"],
+          "options": [
+            "repository",
+            "author",
+            "keywords",
+            "exports",
+            "dependencies",
+            "devDependencies",
+            "scripts",
+            "engines"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -1124,9 +1128,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1148,7 +1150,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1156,7 +1161,15 @@
           "prompt": "5. In the 'dependencies' section, any dependency with a version number of 5.0.0 or higher may potentially cause compatibility issues. Which of the following dependencies meet this criterion?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["d3-array", "d3-contour", "d3-delaunay", "d3-scale","d3-time-format","@rollup/plugin-json","eslint"],
+          "options": [
+            "d3-array",
+            "d3-contour",
+            "d3-delaunay",
+            "d3-scale",
+            "d3-time-format",
+            "@rollup/plugin-json",
+            "eslint"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -1166,9 +1179,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1190,7 +1201,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1208,9 +1222,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1232,7 +1244,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1250,9 +1265,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1274,7 +1287,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1292,9 +1308,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1316,7 +1330,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1324,7 +1341,16 @@
           "prompt": "4. Some top-level keys in the JSON file contain nested structures, meaning they have child key-value pairs. For example, 'repository' is a valid answer because it includes both 'type' and 'url' as nested keys. Which of the following keys do not have this kind of nested structure?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["repository", "author", "keywords","exports","dependencies","devDependencies","scripts","engines"],
+          "options": [
+            "repository",
+            "author",
+            "keywords",
+            "exports",
+            "dependencies",
+            "devDependencies",
+            "scripts",
+            "engines"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -1334,9 +1360,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1358,7 +1382,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1366,7 +1393,15 @@
           "prompt": "5. In the 'dependencies' section, any dependency with a version number of 5.0.0 or higher may potentially cause compatibility issues. Which of the following dependencies meet this criterion?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["d3-array", "d3-contour", "d3-delaunay", "d3-scale","d3-time-format","@rollup/plugin-json","eslint"],
+          "options": [
+            "d3-array",
+            "d3-contour",
+            "d3-delaunay",
+            "d3-scale",
+            "d3-time-format",
+            "@rollup/plugin-json",
+            "eslint"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -1376,9 +1411,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1400,7 +1433,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1418,9 +1454,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1442,7 +1476,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1460,9 +1497,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1484,7 +1519,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1502,9 +1540,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1526,7 +1562,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1534,7 +1573,16 @@
           "prompt": "4. Some top-level keys in the JSON file contain nested structures, meaning they have child key-value pairs. For example, 'repository' is a valid answer because it includes both 'type' and 'url' as nested keys. Which of the following keys do not have this kind of nested structure?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["repository", "author", "keywords","exports","dependencies","devDependencies","scripts","engines"],
+          "options": [
+            "repository",
+            "author",
+            "keywords",
+            "exports",
+            "dependencies",
+            "devDependencies",
+            "scripts",
+            "engines"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -1544,9 +1592,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1568,7 +1614,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1576,7 +1625,15 @@
           "prompt": "5. In the 'dependencies' section, any dependency with a version number of 5.0.0 or higher may potentially cause compatibility issues. Which of the following dependencies meet this criterion?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["d3-array", "d3-contour", "d3-delaunay", "d3-scale","d3-time-format","@rollup/plugin-json","eslint"],
+          "options": [
+            "d3-array",
+            "d3-contour",
+            "d3-delaunay",
+            "d3-scale",
+            "d3-time-format",
+            "@rollup/plugin-json",
+            "eslint"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -1586,9 +1643,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1610,7 +1665,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1628,9 +1686,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1652,7 +1708,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1670,9 +1729,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1694,7 +1751,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1712,9 +1772,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1736,7 +1794,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1744,7 +1805,16 @@
           "prompt": "4. Some top-level keys in the JSON file contain nested structures, meaning they have child key-value pairs. For example, 'repository' is a valid answer because it includes both 'type' and 'url' as nested keys. Which of the following keys do not have this kind of nested structure?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["repository", "author", "keywords","exports","dependencies","devDependencies","scripts","engines"],
+          "options": [
+            "repository",
+            "author",
+            "keywords",
+            "exports",
+            "dependencies",
+            "devDependencies",
+            "scripts",
+            "engines"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -1754,9 +1824,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1778,7 +1846,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1786,7 +1857,15 @@
           "prompt": "5. In the 'dependencies' section, any dependency with a version number of 5.0.0 or higher may potentially cause compatibility issues. Which of the following dependencies meet this criterion?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["d3-array", "d3-contour", "d3-delaunay", "d3-scale","d3-time-format","@rollup/plugin-json","eslint"],
+          "options": [
+            "d3-array",
+            "d3-contour",
+            "d3-delaunay",
+            "d3-scale",
+            "d3-time-format",
+            "@rollup/plugin-json",
+            "eslint"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -1796,9 +1875,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1809,7 +1886,7 @@
       ],
       "allowFailedTraining": false
     },
-    "reading-task-config-xml-1": { 
+    "reading-task-config-xml-1": {
       "helpTextPathOverride": "a-usability-study-config/assets/tutorial/xml/tutorial-xml.md",
       "meta": {
         "taskName": "reading-task-config-xml"
@@ -1820,7 +1897,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1838,9 +1918,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1862,7 +1940,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1880,9 +1961,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1904,7 +1983,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1922,9 +2004,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1946,7 +2026,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1954,7 +2037,16 @@
           "prompt": "4. Some top-level keys in the JSON file contain nested structures, meaning they have child key-value pairs. For example, 'repository' is a valid answer because it includes both 'type' and 'url' as nested keys. Which of the following keys do not have this kind of nested structure?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["repository", "author", "keywords","exports","dependencies","devDependencies","scripts","engines"],
+          "options": [
+            "repository",
+            "author",
+            "keywords",
+            "exports",
+            "dependencies",
+            "devDependencies",
+            "scripts",
+            "engines"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -1964,9 +2056,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1988,7 +2078,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1996,7 +2089,15 @@
           "prompt": "5. In the 'dependencies' section, any dependency with a version number of 5.0.0 or higher may potentially cause compatibility issues. Which of the following dependencies meet this criterion?",
           "type": "dropdown",
           "placeholder": "Please choose the correct answer",
-          "options": ["d3-array", "d3-contour", "d3-delaunay", "d3-scale","d3-time-format","@rollup/plugin-json","eslint"],
+          "options": [
+            "d3-array",
+            "d3-contour",
+            "d3-delaunay",
+            "d3-scale",
+            "d3-time-format",
+            "@rollup/plugin-json",
+            "eslint"
+          ],
           "location": "sidebar",
           "required": true
         },
@@ -2006,9 +2107,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2030,7 +2129,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "json",
+        "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2053,9 +2155,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2077,7 +2177,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "jsonc",
+        "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2100,9 +2203,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2124,7 +2225,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "json5",
+        "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2147,9 +2251,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2169,9 +2271,12 @@
       "instruction": "Please refer to the data structure shown in the figure and convert it into HJSON format. If needed, click the top-right help button to review syntax rules.(Please do not use any AI-assisted tools to complete the task.Please type your answer manually. Responses entered by copying and pasting into the code editor will not be considered complete and will not be eligible for compensation. To prevent accidental submissions from being marked as incomplete, a minimum input requirement has been set.)",
       "type": "react-component",
       "nextButtonLocation": "sidebar",
-      "path": "a-usability-study-config/assets/Editor.tsx", 
+      "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "hjson",
+        "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2194,9 +2299,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2218,7 +2321,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "yaml",
+        "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2241,9 +2347,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2265,7 +2369,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "toml",
+        "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2288,9 +2395,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2312,7 +2417,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "xml",
+        "imagePath": "a-usability-study-config/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2335,9 +2443,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2359,7 +2465,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2375,9 +2484,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2399,7 +2506,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2415,9 +2525,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2439,7 +2547,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2455,9 +2566,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2479,7 +2588,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2495,9 +2607,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2519,7 +2629,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2535,9 +2648,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2559,7 +2670,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2575,9 +2689,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2599,7 +2711,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2615,9 +2730,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2639,7 +2752,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2655,9 +2771,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2679,7 +2793,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2695,9 +2812,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2719,7 +2834,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2735,9 +2853,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2759,7 +2875,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2775,9 +2894,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2799,7 +2916,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2815,9 +2935,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2839,7 +2957,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2855,9 +2976,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2879,7 +2998,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2895,9 +3017,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2919,7 +3039,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2935,9 +3058,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2959,7 +3080,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2975,9 +3099,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2999,7 +3121,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3015,9 +3140,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3039,7 +3162,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3055,9 +3181,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3079,7 +3203,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3095,9 +3222,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3119,7 +3244,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3135,9 +3263,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3159,7 +3285,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3175,9 +3304,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3199,7 +3326,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3215,9 +3345,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3239,7 +3367,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3255,9 +3386,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3279,7 +3408,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3295,9 +3427,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3319,7 +3449,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3335,9 +3468,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3359,7 +3490,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3375,9 +3509,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3399,7 +3531,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3415,9 +3550,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3439,7 +3572,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -3455,9 +3591,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3468,7 +3602,7 @@
       ],
       "allowFailedTraining": false
     },
-    "writing-task-NL":{
+    "writing-task-NL": {
       "meta": {
         "taskName": "writing-task-NL"
       },
@@ -3478,7 +3612,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-config/assets/Editor.tsx",
       "parameters": {
-        "language": "plain_text", "imagePath": "a-usability-study-config/assets/tasks/fig/nl_write.png", "type": "writing", "tabular": false
+        "language": "plain_text",
+        "imagePath": "a-usability-study-config/assets/tasks/fig/nl_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -3501,9 +3638,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3514,18 +3649,18 @@
       ],
       "allowFailedTraining": false
     },
-    "post-task-survey":{
+    "post-task-survey": {
       "type": "questionnaire",
-      "response": [ 
+      "response": [
         {
-        "id": "q7",
-        "prompt": "Do you want to explain your answers? If yes, please provide your explanation.",
-        "required": false,
-        "location": "aboveStimulus",
-        "type": "longText"
-       },
+          "id": "q7",
+          "prompt": "Do you want to explain your answers? If yes, please provide your explanation.",
+          "required": false,
+          "location": "aboveStimulus",
+          "type": "longText"
+        },
         {
-          "id":"q8",
+          "id": "q8",
           "prompt": "Is there anything you’d like to tell us?",
           "required": false,
           "location": "aboveStimulus",
@@ -3537,12 +3672,7 @@
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
-          "options": [
-            "High School",
-            "Bachelor's",
-            "Master's",
-            "PhD"
-          ],
+          "options": ["High School", "Bachelor's", "Master's", "PhD"],
           "withOther": true
         },
         {
@@ -3624,76 +3754,78 @@
     "components": [
       "introduction",
       {
-        "components": [
-            "qualifications"
-        ],
+        "components": ["qualifications"],
         "order": "fixed",
-        "skip": [{
-          "name": "qualifications",
-          "check": "responses",
-          "to": "unqualified"
-        },
-        {
-          "name": "qualifications",
-          "check": "response",
-          "responseId": "concentrationCheck",
-          "to": "unqualified",
-          "comparison": "equal",
-          "value": "Yes, I am an AI"
-        }]
-    },
+        "skip": [
+          {
+            "name": "qualifications",
+            "check": "responses",
+            "to": "unqualified"
+          },
+          {
+            "name": "qualifications",
+            "check": "response",
+            "responseId": "concentrationCheck",
+            "to": "unqualified",
+            "comparison": "equal",
+            "value": "Yes, I am an AI"
+          }
+        ]
+      },
       "consent",
       "task",
       "writing-task-NL",
       "post-task-question",
-      {"order":"latinSquare",
+      {
+        "order": "latinSquare",
         "numSamples": 1,
         "components": [
-        {"order":"fixed",
-        "components": [
-          "tutorial-jsonc-part1",
-          "tutorial-jsonc-part2",
-          "reading-task-config-jsonc-1",
-          "post-task-question",
-          "reading-task-config-jsonc-2",
-          "post-task-question",
-          "reading-task-config-jsonc-3",
-          "post-task-question",
-          "reading-task-config-jsonc-4",
-          "post-task-question",
-          "reading-task-config-jsonc-5",
-          "post-task-question",
-          "writing-task-config-jsonc",
-          "post-task-question",
-          "modifying-task-config-jsonc-1",
-          "post-task-question",
-          "modifying-task-config-jsonc-2",
-          "post-task-question",
-          "modifying-task-config-jsonc-3",
-          "post-task-question",
-          "modifying-task-config-jsonc-4",
-          "post-task-question"
-          ]}
-        ]},
-      "$nasa-tlx.co.nasa-tlx",          
+          {
+            "order": "fixed",
+            "components": [
+              "tutorial-jsonc-part1",
+              "tutorial-jsonc-part2",
+              "reading-task-config-jsonc-1",
+              "post-task-question",
+              "reading-task-config-jsonc-2",
+              "post-task-question",
+              "reading-task-config-jsonc-3",
+              "post-task-question",
+              "reading-task-config-jsonc-4",
+              "post-task-question",
+              "reading-task-config-jsonc-5",
+              "post-task-question",
+              "writing-task-config-jsonc",
+              "post-task-question",
+              "modifying-task-config-jsonc-1",
+              "post-task-question",
+              "modifying-task-config-jsonc-2",
+              "post-task-question",
+              "modifying-task-config-jsonc-3",
+              "post-task-question",
+              "modifying-task-config-jsonc-4",
+              "post-task-question"
+            ]
+          }
+        ]
+      },
+      "$nasa-tlx.co.nasa-tlx",
       {
-        "components": [
-            "post-task-survey"
-        ],
+        "components": ["post-task-survey"],
         "order": "fixed",
-        "skip": [        {
-          "name": "post-task-survey",
-          "check": "response",
-          "responseId": "q1",
-          "to": "end",
-          "comparison": "notEqual",
-          "value": "___impossibleAnswer"
-        }]
+        "skip": [
+          {
+            "name": "post-task-survey",
+            "check": "response",
+            "responseId": "q1",
+            "to": "end",
+            "comparison": "notEqual",
+            "value": "___impossibleAnswer"
+          }
+        ]
       },
       {
-        "components": [
-            "unqualified"
-        ],
+        "components": ["unqualified"],
         "order": "fixed",
         "id": "unqualified"
       }

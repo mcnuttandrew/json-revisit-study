@@ -3,18 +3,13 @@
   "studyMetadata": {
     "title": "Data Serialization Formats Study",
     "version": "pilot",
-    "authors": [
-      "Andrew Mcnutt, Shiyi He"
-    ],
+    "authors": [],
     "date": "2024-11-18",
     "description": "A User Study on the usability of Data Serialization Formats.",
-    "organizations": [
-      "University of Utah",
-      "SCI"
-    ]
+    "organizations": []
   },
   "uiConfig": {
-    "contactEmail": "shiyi.he@utah.edu",
+    "contactEmail": "REDACTED",
     "helpTextPath": "a-usability-study-tabular/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
@@ -24,9 +19,7 @@
     "urlParticipantIdParam": "PROLIFIC_PID",
     "participantNameField": "introduction.prolificId"
   },
-  "importedLibraries": [
-    "nasa-tlx"
-  ],
+  "importedLibraries": ["nasa-tlx"],
   "components": {
     "introduction": {
       "type": "markdown",
@@ -52,10 +45,7 @@
           "required": true,
           "location": "belowStimulus",
           "type": "radio",
-          "options": [
-            "Yes, I am an AI",
-            "I am not an AI"
-          ]
+          "options": ["Yes, I am an AI", "I am not an AI"]
         }
       ]
     },
@@ -112,13 +102,9 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-json-part1",
@@ -143,13 +129,9 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-json-part2",
@@ -174,13 +156,9 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-jsonc-part1",
@@ -205,17 +183,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-jsonc-part2",
-          "answer": ["A","B","C","D"]
+          "answer": ["A", "B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -236,13 +210,9 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-json5-part1",
@@ -267,17 +237,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }
-        ],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-json5-part2",
-          "answer": ["A","B","C","D"]
+          "answer": ["A", "B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -298,16 +264,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-hjson-part1",
-          "answer": ["A","C"]
+          "answer": ["A", "C"]
         }
       ],
       "allowFailedTraining": true,
@@ -328,16 +291,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-hjson-part2",
-          "answer": ["A","B","C","D"]
+          "answer": ["A", "B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -358,16 +318,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-yaml-part1",
-          "answer": ["B","C","D"]
+          "answer": ["B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -388,16 +345,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-yaml-part2",
-          "answer": ["B","C","D"]
+          "answer": ["B", "C", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -418,16 +372,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-toml-part1",
-          "answer": ["B","D"]
+          "answer": ["B", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -448,16 +399,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-toml-part2",
-          "answer": ["A","B","D"]
+          "answer": ["A", "B", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -478,16 +426,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-xml-part1",
-          "answer": ["A","B"]
+          "answer": ["A", "B"]
         }
       ],
       "allowFailedTraining": true,
@@ -508,16 +453,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D"]
-          }],
+          "options": ["A", "B", "C", "D"]
+        }
+      ],
       "correctAnswer": [
         {
           "id": "quiz-xml-part2",
-          "answer": ["B","D"]
+          "answer": ["B", "D"]
         }
       ],
       "allowFailedTraining": true,
@@ -532,23 +474,26 @@
     "post-task-question": {
       "type": "questionnaire",
       "response": [
-      {"id": "difficulty",
-        "prompt": "How difficult was this question?",
-        "type": "likert",
-        "numItems":7,
-        "rightLabel": "Very difficult",
-        "leftLabel": "Very easy",          
-        "required": true
-      }, 
-      {"id": "confidence",
-      "prompt": "How confident are you in your answer?",
-      "type": "likert",
-      "numItems":7,
-      "rightLabel": "Very confident",
-      "leftLabel": "Very unsure",          
-      "required": true
-     }]
-    }, 
+        {
+          "id": "difficulty",
+          "prompt": "How difficult was this question?",
+          "type": "likert",
+          "numItems": 7,
+          "rightLabel": "Very difficult",
+          "leftLabel": "Very easy",
+          "required": true
+        },
+        {
+          "id": "confidence",
+          "prompt": "How confident are you in your answer?",
+          "type": "likert",
+          "numItems": 7,
+          "rightLabel": "Very confident",
+          "leftLabel": "Very unsure",
+          "required": true
+        }
+      ]
+    },
     "reading-task-tabular-json-1": {
       "helpTextPathOverride": "a-usability-study-tabular/assets/tutorial/json/tutorial-json.md",
       "meta": {
@@ -560,7 +505,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -578,9 +526,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -602,7 +548,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -620,9 +569,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -644,7 +591,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -662,9 +612,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -686,7 +634,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -704,9 +655,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -728,7 +677,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -745,9 +697,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -769,7 +719,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -787,9 +740,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -811,7 +762,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -829,9 +783,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -853,7 +805,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -871,9 +826,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -895,7 +848,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -913,9 +869,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -937,7 +891,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -954,9 +911,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -978,7 +933,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -996,9 +954,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1020,7 +976,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1038,9 +997,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1062,7 +1019,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1080,9 +1040,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1104,7 +1062,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1122,9 +1083,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1146,7 +1105,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1163,9 +1125,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1187,7 +1147,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1205,9 +1168,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1229,7 +1190,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1247,9 +1211,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1271,7 +1233,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1289,9 +1254,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1313,7 +1276,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1331,9 +1297,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1355,7 +1319,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1372,9 +1339,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1396,7 +1361,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1414,9 +1382,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1438,7 +1404,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1456,9 +1425,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1480,7 +1447,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1498,9 +1468,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1522,7 +1490,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1540,9 +1511,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1564,7 +1533,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1581,9 +1553,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1605,7 +1575,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1623,9 +1596,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1647,7 +1618,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1665,9 +1639,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1689,7 +1661,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1707,9 +1682,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1731,7 +1704,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1749,9 +1725,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1773,7 +1747,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1790,9 +1767,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1814,7 +1789,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1832,9 +1810,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1856,7 +1832,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1874,9 +1853,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1898,7 +1875,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1916,9 +1896,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1940,7 +1918,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1958,9 +1939,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1982,7 +1961,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1999,9 +1981,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2023,7 +2003,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": false
+        "language": "json",
+        "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2046,9 +2029,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2070,7 +2051,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": false
+        "language": "jsonc",
+        "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2093,9 +2077,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2117,7 +2099,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": false
+        "language": "json5",
+        "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2140,9 +2125,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2164,7 +2147,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": false
+        "language": "hjson",
+        "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2187,9 +2173,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2211,7 +2195,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": false
+        "language": "yaml",
+        "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2234,9 +2221,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2258,7 +2243,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": false
+        "language": "toml",
+        "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2281,9 +2269,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2305,7 +2291,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": false
+        "language": "xml",
+        "imagePath": "a-usability-study-tabular/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2328,9 +2317,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2341,7 +2328,7 @@
       ],
       "allowFailedTraining": false
     },
-    "modifying-task-tabular-json-1": { 
+    "modifying-task-tabular-json-1": {
       "helpTextPathOverride": "a-usability-study-tabular/assets/tutorial/json/tutorial-json.md",
       "meta": {
         "taskName": "modifying-task-tabular-json"
@@ -2352,7 +2339,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2368,9 +2358,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2392,7 +2380,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2408,9 +2399,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2432,7 +2421,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2448,9 +2440,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2472,7 +2462,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2488,9 +2481,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2512,7 +2503,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2528,9 +2522,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2552,7 +2544,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2568,9 +2563,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2592,7 +2585,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2608,9 +2604,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2632,7 +2626,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2648,9 +2645,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2672,7 +2667,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2688,9 +2686,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2712,7 +2708,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2728,9 +2727,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2752,7 +2749,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2768,9 +2768,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2792,7 +2790,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2808,9 +2809,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2832,7 +2831,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2848,9 +2850,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2872,7 +2872,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2888,9 +2891,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2912,7 +2913,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2928,9 +2932,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2952,7 +2954,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2968,9 +2973,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2992,7 +2995,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3008,9 +3014,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3032,7 +3036,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3048,9 +3055,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3072,7 +3077,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3088,9 +3096,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3112,7 +3118,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3128,9 +3137,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3152,7 +3159,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3168,9 +3178,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3192,7 +3200,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3208,9 +3219,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3232,7 +3241,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3248,9 +3260,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3272,7 +3282,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3288,9 +3301,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3312,7 +3323,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3328,9 +3342,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3352,7 +3364,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3368,9 +3383,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3392,7 +3405,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3408,9 +3424,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3432,7 +3446,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -3448,9 +3465,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3461,7 +3476,7 @@
       ],
       "allowFailedTraining": false
     },
-    "writing-task-NL":{
+    "writing-task-NL": {
       "meta": {
         "taskName": "writing-task-NL"
       },
@@ -3471,7 +3486,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study-tabular/assets/Editor.tsx",
       "parameters": {
-        "language": "plain_text", "imagePath": "a-usability-study-tabular/assets/tasks/fig/nl_write.png", "type": "writing", "tabular": false
+        "language": "plain_text",
+        "imagePath": "a-usability-study-tabular/assets/tasks/fig/nl_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -3494,9 +3512,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -3507,18 +3523,18 @@
       ],
       "allowFailedTraining": false
     },
-    "post-task-survey":{
+    "post-task-survey": {
       "type": "questionnaire",
       "response": [
         {
-        "id": "q7",
-        "prompt": "Do you want to explain your answers? If yes, please provide your explanation.",
-        "required": false,
-        "location": "aboveStimulus",
-        "type": "longText"
-       },
+          "id": "q7",
+          "prompt": "Do you want to explain your answers? If yes, please provide your explanation.",
+          "required": false,
+          "location": "aboveStimulus",
+          "type": "longText"
+        },
         {
-          "id":"q8",
+          "id": "q8",
           "prompt": "Is there anything you’d like to tell us?",
           "required": false,
           "location": "aboveStimulus",
@@ -3530,12 +3546,7 @@
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
-          "options": [
-            "High School",
-            "Bachelor's",
-            "Master's",
-            "PhD"
-          ],
+          "options": ["High School", "Bachelor's", "Master's", "PhD"],
           "withOther": true
         },
         {
@@ -3617,126 +3628,132 @@
     "components": [
       "introduction",
       {
-        "components": [
-            "qualifications"
-        ],
+        "components": ["qualifications"],
         "order": "fixed",
-        "skip": [{
-          "name": "qualifications",
-          "check": "responses",
-          "to": "unqualified"
-        },
-        {
-          "name": "qualifications",
-          "check": "response",
-          "responseId": "concentrationCheck",
-          "to": "unqualified",
-          "comparison": "equal",
-          "value": "Yes, I am an AI"
-        }]
-    },
+        "skip": [
+          {
+            "name": "qualifications",
+            "check": "responses",
+            "to": "unqualified"
+          },
+          {
+            "name": "qualifications",
+            "check": "response",
+            "responseId": "concentrationCheck",
+            "to": "unqualified",
+            "comparison": "equal",
+            "value": "Yes, I am an AI"
+          }
+        ]
+      },
       "consent",
       "task",
       "writing-task-NL",
       "post-task-question",
-      {"order":"latinSquare",
+      {
+        "order": "latinSquare",
         "numSamples": 1,
         "components": [
-        {"order":"fixed",
-        "components": [
-          "tutorial-jsonc-part1",
-          "tutorial-jsonc-part2",
-          "reading-task-tabular-jsonc-1",
-          "post-task-question",
-          "reading-task-tabular-jsonc-2",
-          "post-task-question",
-          "reading-task-tabular-jsonc-3",
-          "post-task-question",
-          "reading-task-tabular-jsonc-4",
-          "post-task-question",
-          "reading-task-tabular-jsonc-5",
-          "post-task-question",
-          "writing-task-tabular-jsonc",
-          "post-task-question",
-          "modifying-task-tabular-jsonc-1",
-          "post-task-question",
-          "modifying-task-tabular-jsonc-2",
-          "post-task-question",
-          "modifying-task-tabular-jsonc-3",
-          "post-task-question",
-          "modifying-task-tabular-jsonc-4",
-          "post-task-question"
-          ]},
-        {"order":"fixed",
-        "components": [
-          "tutorial-hjson-part1",
-          "tutorial-hjson-part2",
-          "reading-task-tabular-hjson-1",
-          "post-task-question",
-          "reading-task-tabular-hjson-2",
-          "post-task-question",
-          "reading-task-tabular-hjson-3",
-          "post-task-question",
-          "reading-task-tabular-hjson-4",
-          "post-task-question",
-          "reading-task-tabular-hjson-5",
-          "post-task-question",
-          "writing-task-tabular-hjson",
-          "post-task-question",
-          "modifying-task-tabular-hjson-1",
-          "post-task-question",
-          "modifying-task-tabular-hjson-2",
-          "post-task-question",
-          "modifying-task-tabular-hjson-3",
-          "post-task-question",
-          "modifying-task-tabular-hjson-4",
-          "post-task-question"
-          ]},
-        {"order":"fixed",
-        "components": [
-          "tutorial-toml-part1",
-          "tutorial-toml-part2",
-          "reading-task-tabular-toml-1",
-          "post-task-question",
-          "reading-task-tabular-toml-2",
-          "post-task-question",
-          "reading-task-tabular-toml-3",
-          "post-task-question",
-          "reading-task-tabular-toml-4",
-          "post-task-question",
-          "reading-task-tabular-toml-5",
-          "post-task-question",
-          "writing-task-tabular-toml",
-          "post-task-question",
-          "modifying-task-tabular-toml-1",
-          "post-task-question",
-          "modifying-task-tabular-toml-2",
-          "post-task-question",
-          "modifying-task-tabular-toml-3",
-          "post-task-question",
-          "modifying-task-tabular-toml-4",
-          "post-task-question"
-          ]}
-        ]},  
-        "$nasa-tlx.co.nasa-tlx",          
+          {
+            "order": "fixed",
+            "components": [
+              "tutorial-jsonc-part1",
+              "tutorial-jsonc-part2",
+              "reading-task-tabular-jsonc-1",
+              "post-task-question",
+              "reading-task-tabular-jsonc-2",
+              "post-task-question",
+              "reading-task-tabular-jsonc-3",
+              "post-task-question",
+              "reading-task-tabular-jsonc-4",
+              "post-task-question",
+              "reading-task-tabular-jsonc-5",
+              "post-task-question",
+              "writing-task-tabular-jsonc",
+              "post-task-question",
+              "modifying-task-tabular-jsonc-1",
+              "post-task-question",
+              "modifying-task-tabular-jsonc-2",
+              "post-task-question",
+              "modifying-task-tabular-jsonc-3",
+              "post-task-question",
+              "modifying-task-tabular-jsonc-4",
+              "post-task-question"
+            ]
+          },
+          {
+            "order": "fixed",
+            "components": [
+              "tutorial-hjson-part1",
+              "tutorial-hjson-part2",
+              "reading-task-tabular-hjson-1",
+              "post-task-question",
+              "reading-task-tabular-hjson-2",
+              "post-task-question",
+              "reading-task-tabular-hjson-3",
+              "post-task-question",
+              "reading-task-tabular-hjson-4",
+              "post-task-question",
+              "reading-task-tabular-hjson-5",
+              "post-task-question",
+              "writing-task-tabular-hjson",
+              "post-task-question",
+              "modifying-task-tabular-hjson-1",
+              "post-task-question",
+              "modifying-task-tabular-hjson-2",
+              "post-task-question",
+              "modifying-task-tabular-hjson-3",
+              "post-task-question",
+              "modifying-task-tabular-hjson-4",
+              "post-task-question"
+            ]
+          },
+          {
+            "order": "fixed",
+            "components": [
+              "tutorial-toml-part1",
+              "tutorial-toml-part2",
+              "reading-task-tabular-toml-1",
+              "post-task-question",
+              "reading-task-tabular-toml-2",
+              "post-task-question",
+              "reading-task-tabular-toml-3",
+              "post-task-question",
+              "reading-task-tabular-toml-4",
+              "post-task-question",
+              "reading-task-tabular-toml-5",
+              "post-task-question",
+              "writing-task-tabular-toml",
+              "post-task-question",
+              "modifying-task-tabular-toml-1",
+              "post-task-question",
+              "modifying-task-tabular-toml-2",
+              "post-task-question",
+              "modifying-task-tabular-toml-3",
+              "post-task-question",
+              "modifying-task-tabular-toml-4",
+              "post-task-question"
+            ]
+          }
+        ]
+      },
+      "$nasa-tlx.co.nasa-tlx",
       {
-        "components": [
-            "post-task-survey"
-        ],
+        "components": ["post-task-survey"],
         "order": "fixed",
-        "skip": [        {
-          "name": "post-task-survey",
-          "check": "response",
-          "responseId": "q1",
-          "to": "end",
-          "comparison": "notEqual",
-          "value": "___impossibleAnswer"
-        }]
+        "skip": [
+          {
+            "name": "post-task-survey",
+            "check": "response",
+            "responseId": "q1",
+            "to": "end",
+            "comparison": "notEqual",
+            "value": "___impossibleAnswer"
+          }
+        ]
       },
       {
-        "components": [
-            "unqualified"
-        ],
+        "components": ["unqualified"],
         "order": "fixed",
         "id": "unqualified"
       }

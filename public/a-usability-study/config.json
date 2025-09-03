@@ -3,27 +3,20 @@
   "studyMetadata": {
     "title": "Data Serialization Formats Study",
     "version": "pilot",
-    "authors": [
-      "Andrew Mcnutt, Shiyi He"
-    ],
+    "authors": [""],
     "date": "2024-11-18",
     "description": "A User Study on the usability of Data Serialization Formats.",
-    "organizations": [
-      "University of Utah",
-      "SCI"
-    ]
+    "organizations": []
   },
   "uiConfig": {
-    "contactEmail": "shiyi.he@utah.edu",
+    "contactEmail": "",
     "helpTextPath": "a-usability-study/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
     "autoDownloadStudy": false,
     "sidebar": true
   },
-  "importedLibraries": [
-    "nasa-tlx"
-  ],
+  "importedLibraries": ["nasa-tlx"],
   "components": {
     "introduction": {
       "type": "markdown",
@@ -68,10 +61,7 @@
           "required": true,
           "location": "belowStimulus",
           "type": "radio",
-          "options": [
-            "Yes, I am an AI",
-            "I am not an AI"
-          ]
+          "options": ["Yes, I am an AI", "I am not an AI"]
         }
       ],
       "correctAnswer": [
@@ -148,21 +138,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F",
-            "G"
-          ]
+          "options": ["A", "B", "C", "D", "E", "F", "G"]
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz-json",
-          "answer": ["A","D","F"]
+          "answer": ["A", "D", "F"]
         }
       ],
       "allowFailedTraining": true,
@@ -195,20 +177,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F"
-          ]
+          "options": ["A", "B", "C", "D", "E", "F"]
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz-jsonc",
-          "answer": ["A","C","D","E"]
+          "answer": ["A", "C", "D", "E"]
         }
       ],
       "allowFailedTraining": true,
@@ -241,20 +216,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F"
-          ]
+          "options": ["A", "B", "C", "D", "E", "F"]
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz-json5",
-          "answer": ["B","C","D","F"]
+          "answer": ["B", "C", "D", "F"]
         }
       ],
       "allowFailedTraining": true,
@@ -287,20 +255,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F"
-          ]
+          "options": ["A", "B", "C", "D", "E", "F"]
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz-hjson",
-          "answer": ["A","B","D","E"]
+          "answer": ["A", "B", "D", "E"]
         }
       ],
       "allowFailedTraining": true,
@@ -333,20 +294,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F"
-          ]
+          "options": ["A", "B", "C", "D", "E", "F"]
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz-yaml",
-          "answer": ["A","B","C","D","E"]
+          "answer": ["A", "B", "C", "D", "E"]
         }
       ],
       "allowFailedTraining": true,
@@ -379,20 +333,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F"
-          ]
+          "options": ["A", "B", "C", "D", "E", "F"]
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz-toml",
-          "answer": ["A","C","D","F"]
+          "answer": ["A", "C", "D", "F"]
         }
       ],
       "allowFailedTraining": true,
@@ -425,20 +372,13 @@
           "required": true,
           "location": "sidebar",
           "type": "checkbox",
-          "options": [
-            "A",
-            "B",
-            "C",
-            "D",
-            "E",
-            "F"
-          ]
+          "options": ["A", "B", "C", "D", "E", "F"]
         }
       ],
       "correctAnswer": [
         {
           "id": "quiz-xml",
-          "answer": ["A","C","D","F"]
+          "answer": ["A", "C", "D", "F"]
         }
       ],
       "allowFailedTraining": true,
@@ -461,7 +401,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -505,9 +448,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -529,7 +470,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -573,9 +517,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -597,7 +539,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -641,9 +586,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -665,7 +608,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "reading", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -709,9 +655,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -733,7 +677,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -777,9 +724,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -801,7 +746,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "reading", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -845,9 +793,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -869,7 +815,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -913,9 +862,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -937,7 +884,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "reading", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -981,9 +931,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1005,7 +953,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1049,9 +1000,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1073,7 +1022,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1117,9 +1069,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1141,7 +1091,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1185,9 +1138,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1209,7 +1160,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1253,9 +1207,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1277,7 +1229,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": false
       },
       "response": [
         {
@@ -1321,9 +1276,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1345,7 +1298,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "reading", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "reading",
+        "tabular": true
       },
       "response": [
         {
@@ -1389,9 +1345,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1413,7 +1367,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": "a-usability-study/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "json",
+        "imagePath": "a-usability-study/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -1436,9 +1393,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1460,7 +1415,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": true
+        "language": "json",
+        "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": true
       },
       "response": [
         {
@@ -1483,9 +1441,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1507,7 +1463,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": "a-usability-study/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "jsonc",
+        "imagePath": "a-usability-study/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -1530,9 +1489,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1554,7 +1511,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": true
+        "language": "jsonc",
+        "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": true
       },
       "response": [
         {
@@ -1577,9 +1537,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1601,7 +1559,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": "a-usability-study/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "json5",
+        "imagePath": "a-usability-study/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -1624,9 +1585,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1648,7 +1607,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": true
+        "language": "json5",
+        "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": true
       },
       "response": [
         {
@@ -1671,9 +1633,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1695,7 +1655,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": "a-usability-study/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "hjson",
+        "imagePath": "a-usability-study/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -1718,9 +1681,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1742,7 +1703,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": true
+        "language": "hjson",
+        "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": true
       },
       "response": [
         {
@@ -1765,9 +1729,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1789,7 +1751,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": "a-usability-study/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "yaml",
+        "imagePath": "a-usability-study/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -1812,9 +1777,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1836,7 +1799,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": true
+        "language": "yaml",
+        "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": true
       },
       "response": [
         {
@@ -1859,9 +1825,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1883,7 +1847,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": "a-usability-study/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "toml",
+        "imagePath": "a-usability-study/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -1906,9 +1873,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1930,7 +1895,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": true
+        "language": "toml",
+        "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": true
       },
       "response": [
         {
@@ -1953,9 +1921,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -1977,7 +1943,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": "a-usability-study/assets/tasks/fig/config_write.png", "type": "writing", "tabular": false
+        "language": "xml",
+        "imagePath": "a-usability-study/assets/tasks/fig/config_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2000,9 +1969,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2024,7 +1991,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png", "type": "writing", "tabular": true
+        "language": "xml",
+        "imagePath": "a-usability-study/assets/tasks/fig/tabular_write.png",
+        "type": "writing",
+        "tabular": true
       },
       "response": [
         {
@@ -2047,9 +2017,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2071,7 +2039,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2108,9 +2079,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2132,7 +2101,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2169,9 +2141,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2193,7 +2163,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2230,9 +2203,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2254,7 +2225,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "jsonc", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "jsonc",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2291,9 +2265,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2315,7 +2287,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2352,9 +2327,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2376,7 +2349,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "json5", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "json5",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2413,9 +2389,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2437,7 +2411,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2474,9 +2451,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2498,7 +2473,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "hjson", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "hjson",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2535,9 +2513,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2559,7 +2535,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2596,9 +2575,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2620,7 +2597,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "toml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "toml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2657,9 +2637,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2681,7 +2659,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2718,9 +2699,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2742,7 +2721,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "yaml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "yaml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2779,9 +2761,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2803,7 +2783,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": false
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": false
       },
       "response": [
         {
@@ -2840,9 +2823,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2864,7 +2845,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "xml", "imagePath": null, "type": "modifying", "tabular": true
+        "language": "xml",
+        "imagePath": null,
+        "type": "modifying",
+        "tabular": true
       },
       "response": [
         {
@@ -2901,9 +2885,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2914,7 +2896,7 @@
       ],
       "allowFailedTraining": false
     },
-    "writing-task-NL":{
+    "writing-task-NL": {
       "meta": {
         "taskName": "writing-task-NL"
       },
@@ -2924,7 +2906,10 @@
       "nextButtonLocation": "sidebar",
       "path": "a-usability-study/assets/Editor.tsx",
       "parameters": {
-        "language": "plain_text", "imagePath": "a-usability-study/assets/tasks/fig/nl_write.png", "type": "writing", "tabular": false
+        "language": "plain_text",
+        "imagePath": "a-usability-study/assets/tasks/fig/nl_write.png",
+        "type": "writing",
+        "tabular": false
       },
       "response": [
         {
@@ -2947,9 +2932,7 @@
           "type": "radio",
           "location": "sidebar",
           "required": true,
-          "options": [
-            "Yes"
-          ]
+          "options": ["Yes"]
         }
       ],
       "correctAnswer": [
@@ -2960,7 +2943,7 @@
       ],
       "allowFailedTraining": false
     },
-    "post-task-survey":{
+    "post-task-survey": {
       "type": "questionnaire",
       "response": [
         {
@@ -2981,11 +2964,7 @@
             "9",
             "Very High(10)"
           ],
-          "questionOptions": [
-            "Reading",
-            "Writing",
-            "Modifying"
-          ]
+          "questionOptions": ["Reading", "Writing", "Modifying"]
         },
         {
           "id": "q2",
@@ -3005,11 +2984,7 @@
             "9",
             "Very High(10)"
           ],
-          "questionOptions": [
-            "Reading",
-            "Writing",
-            "Modifying"
-          ]
+          "questionOptions": ["Reading", "Writing", "Modifying"]
         },
         {
           "id": "q3",
@@ -3029,11 +3004,7 @@
             "9",
             "Very High(10)"
           ],
-          "questionOptions": [
-            "Reading",
-            "Writing",
-            "Modifying"
-          ]
+          "questionOptions": ["Reading", "Writing", "Modifying"]
         },
         {
           "id": "q4",
@@ -3053,11 +3024,7 @@
             "9",
             "Failure(10)"
           ],
-          "questionOptions": [
-            "Reading",
-            "Writing",
-            "Modifying"
-          ]
+          "questionOptions": ["Reading", "Writing", "Modifying"]
         },
         {
           "id": "q5",
@@ -3077,11 +3044,7 @@
             "9",
             "Very High(10)"
           ],
-          "questionOptions": [
-            "Reading",
-            "Writing",
-            "Modifying"
-          ]
+          "questionOptions": ["Reading", "Writing", "Modifying"]
         },
         {
           "id": "q6",
@@ -3101,21 +3064,17 @@
             "9",
             "Very High(10)"
           ],
-          "questionOptions": [
-            "Reading",
-            "Writing",
-            "Modifying"
-          ]
-        },    
+          "questionOptions": ["Reading", "Writing", "Modifying"]
+        },
         {
-        "id": "q7",
-        "prompt": "Do you want to explain your answers? If yes, please provide your explanation.",
-        "required": false,
-        "location": "aboveStimulus",
-        "type": "longText"
-       },
+          "id": "q7",
+          "prompt": "Do you want to explain your answers? If yes, please provide your explanation.",
+          "required": false,
+          "location": "aboveStimulus",
+          "type": "longText"
+        },
         {
-          "id":"q8",
+          "id": "q8",
           "prompt": "Is there anything you’d like to tell us?",
           "required": false,
           "location": "aboveStimulus",
@@ -3132,80 +3091,75 @@
           "required": true,
           "location": "aboveStimulus",
           "type": "radio",
+          "options": ["High School", "Bachelor's", "Master's", "PhD"],
+          "withOther": true
+        },
+        {
+          "id": "q2",
+          "prompt": "How would you assess your programming proficiency, considering factors such as coursework, formal training, and hands-on experience?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "radio",
           "options": [
-            "High School",
-            "Bachelor's",
-            "Master's",
-            "PhD"
+            "Beginner(<6 months of experience)",
+            "Intermediate(6 months -3 years of experience)",
+            "Advanced(3-5 years of experience)",
+            "Expert(>5 years of experience)"
           ],
           "withOther": true
         },
-      {
-        "id": "q2",
-        "prompt": "How would you assess your programming proficiency, considering factors such as coursework, formal training, and hands-on experience?",
-        "required": true,
-        "location": "aboveStimulus",
-        "type": "radio",
-        "options": [
-          "Beginner(<6 months of experience)",
-          "Intermediate(6 months -3 years of experience)",
-          "Advanced(3-5 years of experience)",
-          "Expert(>5 years of experience)"
-        ],
-        "withOther": true
-      },
-      {
-        "id": "q3",
-        "prompt": "Can you specify your familarity with the following data formats?",
-        "required": true,
-        "location": "aboveStimulus",
-        "type": "matrix-radio",
-        "answerOptions": [
-          "Expert",
-          "Comfortable using it",
-          "Used it a few times",
-          "Heard of it but never used",
-          "Not familiar at all"
-        ],
-        "questionOptions": [
-          "JSON",
-          "JSONC",
-          "JSON5",
-          "HJSON",
-          "YAML",
-          "TOML",
-          "XML"
-        ]
-      },
-      {
-        "id": "q4",
-        "prompt": "Do you have any cognitive conditions that might affect how you perceive visual information?",
-        "required": true,
-        "location": "aboveStimulus",
-        "type": "checkbox",
-        "options": [
-          "Prefer not to say.",
-          "No, I do not have any cognitive-related conditions.",
-          "Dyslexia (e.g., difficulty reading or distinguishing symbols, such as \"b\" and \"d\").",
-          "Dysgraphia (e.g., difficulty with handwriting or written expression)."
-        ],
-        "withOther": true
-      },
-      {
-        "id": "q5",
-        "prompt": "Do you experience any vision conditions that may affect your ability to interpret text or symbols?",
-        "required": true,
-        "location": "aboveStimulus",
-        "type": "checkbox",
-        "options": [
-          "Prefer not to say.",
-          "No, I do not have any related conditions.",
-          "Color vision deficiency (CVD) (e.g., difficulty distinguishing colors like red and green).",
-          "Low vision (e.g., difficulty seeing clearly, even with corrective lenses).",
-          "Blindness (e.g., unable to see or severe visual impairment)."
-        ],
-        "withOther": true
-      }
+        {
+          "id": "q3",
+          "prompt": "Can you specify your familarity with the following data formats?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "matrix-radio",
+          "answerOptions": [
+            "Expert",
+            "Comfortable using it",
+            "Used it a few times",
+            "Heard of it but never used",
+            "Not familiar at all"
+          ],
+          "questionOptions": [
+            "JSON",
+            "JSONC",
+            "JSON5",
+            "HJSON",
+            "YAML",
+            "TOML",
+            "XML"
+          ]
+        },
+        {
+          "id": "q4",
+          "prompt": "Do you have any cognitive conditions that might affect how you perceive visual information?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "checkbox",
+          "options": [
+            "Prefer not to say.",
+            "No, I do not have any cognitive-related conditions.",
+            "Dyslexia (e.g., difficulty reading or distinguishing symbols, such as \"b\" and \"d\").",
+            "Dysgraphia (e.g., difficulty with handwriting or written expression)."
+          ],
+          "withOther": true
+        },
+        {
+          "id": "q5",
+          "prompt": "Do you experience any vision conditions that may affect your ability to interpret text or symbols?",
+          "required": true,
+          "location": "aboveStimulus",
+          "type": "checkbox",
+          "options": [
+            "Prefer not to say.",
+            "No, I do not have any related conditions.",
+            "Color vision deficiency (CVD) (e.g., difficulty distinguishing colors like red and green).",
+            "Low vision (e.g., difficulty seeing clearly, even with corrective lenses).",
+            "Blindness (e.g., unable to see or severe visual impairment)."
+          ],
+          "withOther": true
+        }
       ]
     }
   },
@@ -3214,1134 +3168,1289 @@
     "components": [
       "introduction",
       {
-        "components": [
-            "qualifications"
-        ],
+        "components": ["qualifications"],
         "order": "fixed",
-        "skip": [{
-          "name": "qualifications",
-          "check": "responses",
-          "to": "unqualified"
-        },
-        {
-          "name": "qualifications",
-          "check": "response",
-          "responseId": "packageJsonFamiliarity",
-          "to": "unqualified",
-          "comparison": "equal",
-          "value": "Very familiar"
-        },
-        {
-          "name": "qualifications",
-          "check": "response",
-          "responseId": "concentrationCheck",
-          "to": "unqualified",
-          "comparison": "equal",
-          "value": "Yes, I am an AI"
-        }]
-    },
+        "skip": [
+          {
+            "name": "qualifications",
+            "check": "responses",
+            "to": "unqualified"
+          },
+          {
+            "name": "qualifications",
+            "check": "response",
+            "responseId": "packageJsonFamiliarity",
+            "to": "unqualified",
+            "comparison": "equal",
+            "value": "Very familiar"
+          },
+          {
+            "name": "qualifications",
+            "check": "response",
+            "responseId": "concentrationCheck",
+            "to": "unqualified",
+            "comparison": "equal",
+            "value": "Yes, I am an AI"
+          }
+        ]
+      },
       "consent",
       "task",
-      {"order":"latinSquare",
+      {
+        "order": "latinSquare",
         "numSamples": 1,
         "components": [
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-json",
-            "quiz-json",
-            "reading-task-config-json",
-            "writing-task-config-json",
-            "modifying-task-config-json",
-            "post-task-survey"
-          ]
+          {
+            "order": "fixed",
+            "components": [
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-json",
+                  "quiz-json",
+                  "reading-task-config-json",
+                  "writing-task-config-json",
+                  "modifying-task-config-json",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-tabular-jsonc",
+                      "writing-task-tabular-jsonc",
+                      "modifying-task-tabular-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-tabular-json5",
+                      "writing-task-tabular-json5",
+                      "modifying-task-tabular-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-tabular-hjson",
+                      "writing-task-tabular-hjson",
+                      "modifying-task-tabular-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-tabular-yaml",
+                      "writing-task-tabular-yaml",
+                      "modifying-task-tabular-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-tabular-toml",
+                      "writing-task-tabular-toml",
+                      "modifying-task-tabular-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-tabular-xml",
+                      "writing-task-tabular-xml",
+                      "modifying-task-tabular-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
+            ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-tabular-jsonc",
-                "writing-task-tabular-jsonc",
-                "modifying-task-tabular-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-tabular-json5",
-                "writing-task-tabular-json5",
-                "modifying-task-tabular-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-hjson",
-                "quiz-hjson",
-                "reading-task-tabular-hjson",
-                "writing-task-tabular-hjson",
-                "modifying-task-tabular-hjson",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-tabular-yaml",
-              "writing-task-tabular-yaml",
-              "modifying-task-tabular-yaml",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-json",
+                  "quiz-json",
+                  "reading-task-tabular-json",
+                  "writing-task-tabular-json",
+                  "modifying-task-tabular-json",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-config-jsonc",
+                      "writing-task-config-jsonc",
+                      "modifying-task-config-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-config-json5",
+                      "writing-task-config-json5",
+                      "modifying-task-config-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-config-hjson",
+                      "writing-task-config-hjson",
+                      "modifying-task-config-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-config-yaml",
+                      "writing-task-config-yaml",
+                      "modifying-task-config-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-config-toml",
+                      "writing-task-config-toml",
+                      "modifying-task-config-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-config-xml",
+                      "writing-task-config-xml",
+                      "modifying-task-config-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-tabular-toml",
-              "writing-task-tabular-toml",
-              "modifying-task-tabular-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-tabular-xml",
-              "writing-task-tabular-xml",
-              "modifying-task-tabular-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-json",
-            "quiz-json",
-            "reading-task-tabular-json",
-            "writing-task-tabular-json",
-            "modifying-task-tabular-json",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-config-jsonc",
-                "writing-task-config-jsonc",
-                "modifying-task-config-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-config-json5",
-                "writing-task-config-json5",
-                "modifying-task-config-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-hjson",
-                "quiz-hjson",
-                "reading-task-config-hjson",
-                "writing-task-config-hjson",
-                "modifying-task-config-hjson",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-config-yaml",
-              "writing-task-config-yaml",
-              "modifying-task-config-yaml",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-jsonc",
+                  "quiz-jsonc",
+                  "reading-task-config-jsonc",
+                  "writing-task-config-jsonc",
+                  "modifying-task-config-jsonc",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-tabular-json",
+                      "writing-task-tabular-json",
+                      "modifying-task-tabular-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-tabular-json5",
+                      "writing-task-tabular-json5",
+                      "modifying-task-tabular-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-tabular-hjson",
+                      "writing-task-tabular-hjson",
+                      "modifying-task-tabular-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-tabular-yaml",
+                      "writing-task-tabular-yaml",
+                      "modifying-task-tabular-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-tabular-toml",
+                      "writing-task-tabular-toml",
+                      "modifying-task-tabular-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-tabular-xml",
+                      "writing-task-tabular-xml",
+                      "modifying-task-tabular-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-config-toml",
-              "writing-task-config-toml",
-              "modifying-task-config-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-config-xml",
-              "writing-task-config-xml",
-              "modifying-task-config-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-jsonc",
-            "quiz-jsonc",
-            "reading-task-config-jsonc",
-            "writing-task-config-jsonc",
-            "modifying-task-config-jsonc",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-tabular-json",
-                "writing-task-tabular-json",
-                "modifying-task-tabular-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-tabular-json5",
-                "writing-task-tabular-json5",
-                "modifying-task-tabular-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-hjson",
-                "quiz-hjson",
-                "reading-task-tabular-hjson",
-                "writing-task-tabular-hjson",
-                "modifying-task-tabular-hjson",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-tabular-yaml",
-              "writing-task-tabular-yaml",
-              "modifying-task-tabular-yaml",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-jsonc",
+                  "quiz-jsonc",
+                  "reading-task-tabular-jsonc",
+                  "writing-task-tabular-jsonc",
+                  "modifying-task-tabular-jsonc",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-config-json",
+                      "writing-task-config-json",
+                      "modifying-task-config-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-config-json5",
+                      "writing-task-config-json5",
+                      "modifying-task-config-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-config-hjson",
+                      "writing-task-config-hjson",
+                      "modifying-task-config-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-config-yaml",
+                      "writing-task-config-yaml",
+                      "modifying-task-config-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-config-toml",
+                      "writing-task-config-toml",
+                      "modifying-task-config-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-config-xml",
+                      "writing-task-config-xml",
+                      "modifying-task-config-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-tabular-toml",
-              "writing-task-tabular-toml",
-              "modifying-task-tabular-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-tabular-xml",
-              "writing-task-tabular-xml",
-              "modifying-task-tabular-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-jsonc",
-            "quiz-jsonc",
-            "reading-task-tabular-jsonc",
-            "writing-task-tabular-jsonc",
-            "modifying-task-tabular-jsonc",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-config-json",
-                "writing-task-config-json",
-                "modifying-task-config-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-config-json5",
-                "writing-task-config-json5",
-                "modifying-task-config-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-hjson",
-                "quiz-hjson",
-                "reading-task-config-hjson",
-                "writing-task-config-hjson",
-                "modifying-task-config-hjson",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-config-yaml",
-              "writing-task-config-yaml",
-              "modifying-task-config-yaml",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-json5",
+                  "quiz-json5",
+                  "reading-task-config-json5",
+                  "writing-task-config-json5",
+                  "modifying-task-config-json5",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-tabular-json",
+                      "writing-task-tabular-json",
+                      "modifying-task-tabular-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-tabular-jsonc",
+                      "writing-task-tabular-jsonc",
+                      "modifying-task-tabular-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-tabular-hjson",
+                      "writing-task-tabular-hjson",
+                      "modifying-task-tabular-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-tabular-yaml",
+                      "writing-task-tabular-yaml",
+                      "modifying-task-tabular-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-tabular-toml",
+                      "writing-task-tabular-toml",
+                      "modifying-task-tabular-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-tabular-xml",
+                      "writing-task-tabular-xml",
+                      "modifying-task-tabular-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-config-toml",
-              "writing-task-config-toml",
-              "modifying-task-config-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-config-xml",
-              "writing-task-config-xml",
-              "modifying-task-config-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-json5",
-            "quiz-json5",
-            "reading-task-config-json5",
-            "writing-task-config-json5",
-            "modifying-task-config-json5",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-tabular-json",
-                "writing-task-tabular-json",
-                "modifying-task-tabular-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-tabular-jsonc",
-                "writing-task-tabular-jsonc",
-                "modifying-task-tabular-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-hjson",
-                "quiz-hjson",
-                "reading-task-tabular-hjson",
-                "writing-task-tabular-hjson",
-                "modifying-task-tabular-hjson",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-tabular-yaml",
-              "writing-task-tabular-yaml",
-              "modifying-task-tabular-yaml",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-json5",
+                  "quiz-json5",
+                  "reading-task-tabular-json5",
+                  "writing-task-tabular-json5",
+                  "modifying-task-tabular-json5",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-config-json",
+                      "writing-task-config-json",
+                      "modifying-task-config-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-config-jsonc",
+                      "writing-task-config-jsonc",
+                      "modifying-task-config-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-config-hjson",
+                      "writing-task-config-hjson",
+                      "modifying-task-config-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-config-yaml",
+                      "writing-task-config-yaml",
+                      "modifying-task-config-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-config-toml",
+                      "writing-task-config-toml",
+                      "modifying-task-config-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-config-xml",
+                      "writing-task-config-xml",
+                      "modifying-task-config-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-tabular-toml",
-              "writing-task-tabular-toml",
-              "modifying-task-tabular-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-tabular-xml",
-              "writing-task-tabular-xml",
-              "modifying-task-tabular-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-json5",
-            "quiz-json5",
-            "reading-task-tabular-json5",
-            "writing-task-tabular-json5",
-            "modifying-task-tabular-json5",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-config-json",
-                "writing-task-config-json",
-                "modifying-task-config-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-config-jsonc",
-                "writing-task-config-jsonc",
-                "modifying-task-config-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-hjson",
-                "quiz-hjson",
-                "reading-task-config-hjson",
-                "writing-task-config-hjson",
-                "modifying-task-config-hjson",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-config-yaml",
-              "writing-task-config-yaml",
-              "modifying-task-config-yaml",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-hjson",
+                  "quiz-hjson",
+                  "reading-task-config-hjson",
+                  "writing-task-config-hjson",
+                  "modifying-task-config-hjson",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-tabular-json",
+                      "writing-task-tabular-json",
+                      "modifying-task-tabular-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-tabular-jsonc",
+                      "writing-task-tabular-jsonc",
+                      "modifying-task-tabular-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-tabular-json5",
+                      "writing-task-tabular-json5",
+                      "modifying-task-tabular-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-tabular-yaml",
+                      "writing-task-tabular-yaml",
+                      "modifying-task-tabular-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-tabular-toml",
+                      "writing-task-tabular-toml",
+                      "modifying-task-tabular-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-tabular-xml",
+                      "writing-task-tabular-xml",
+                      "modifying-task-tabular-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-config-toml",
-              "writing-task-config-toml",
-              "modifying-task-config-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-config-xml",
-              "writing-task-config-xml",
-              "modifying-task-config-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-hjson",
-            "quiz-hjson",
-            "reading-task-config-hjson",
-            "writing-task-config-hjson",
-            "modifying-task-config-hjson",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-tabular-json",
-                "writing-task-tabular-json",
-                "modifying-task-tabular-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-tabular-jsonc",
-                "writing-task-tabular-jsonc",
-                "modifying-task-tabular-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-tabular-json5",
-                "writing-task-tabular-json5",
-                "modifying-task-tabular-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-tabular-yaml",
-              "writing-task-tabular-yaml",
-              "modifying-task-tabular-yaml",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-hjson",
+                  "quiz-hjson",
+                  "reading-task-tabular-hjson",
+                  "writing-task-tabular-hjson",
+                  "modifying-task-tabular-hjson",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-config-json",
+                      "writing-task-config-json",
+                      "modifying-task-config-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-config-jsonc",
+                      "writing-task-config-jsonc",
+                      "modifying-task-config-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-config-json5",
+                      "writing-task-config-json5",
+                      "modifying-task-config-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-config-yaml",
+                      "writing-task-config-yaml",
+                      "modifying-task-config-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-config-toml",
+                      "writing-task-config-toml",
+                      "modifying-task-config-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-config-xml",
+                      "writing-task-config-xml",
+                      "modifying-task-config-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-tabular-toml",
-              "writing-task-tabular-toml",
-              "modifying-task-tabular-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-tabular-xml",
-              "writing-task-tabular-xml",
-              "modifying-task-tabular-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-hjson",
-            "quiz-hjson",
-            "reading-task-tabular-hjson",
-            "writing-task-tabular-hjson",
-            "modifying-task-tabular-hjson",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-config-json",
-                "writing-task-config-json",
-                "modifying-task-config-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-config-jsonc",
-                "writing-task-config-jsonc",
-                "modifying-task-config-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-config-json5",
-                "writing-task-config-json5",
-                "modifying-task-config-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-config-yaml",
-              "writing-task-config-yaml",
-              "modifying-task-config-yaml",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-yaml",
+                  "quiz-yaml",
+                  "reading-task-config-yaml",
+                  "writing-task-config-yaml",
+                  "modifying-task-config-yaml",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-tabular-json",
+                      "writing-task-tabular-json",
+                      "modifying-task-tabular-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-tabular-jsonc",
+                      "writing-task-tabular-jsonc",
+                      "modifying-task-tabular-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-tabular-json5",
+                      "writing-task-tabular-json5",
+                      "modifying-task-tabular-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-tabular-hjson",
+                      "writing-task-tabular-hjson",
+                      "modifying-task-tabular-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-tabular-toml",
+                      "writing-task-tabular-toml",
+                      "modifying-task-tabular-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-tabular-xml",
+                      "writing-task-tabular-xml",
+                      "modifying-task-tabular-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-config-toml",
-              "writing-task-config-toml",
-              "modifying-task-config-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-config-xml",
-              "writing-task-config-xml",
-              "modifying-task-config-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-yaml",
-            "quiz-yaml",
-            "reading-task-config-yaml",
-            "writing-task-config-yaml",
-            "modifying-task-config-yaml",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-tabular-json",
-                "writing-task-tabular-json",
-                "modifying-task-tabular-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-tabular-jsonc",
-                "writing-task-tabular-jsonc",
-                "modifying-task-tabular-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-tabular-json5",
-                "writing-task-tabular-json5",
-                "modifying-task-tabular-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-hjson",
-              "quiz-hjson",
-              "reading-task-tabular-hjson",
-              "writing-task-tabular-hjson",
-              "modifying-task-tabular-hjson",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-yaml",
+                  "quiz-yaml",
+                  "reading-task-tabular-yaml",
+                  "writing-task-tabular-yaml",
+                  "modifying-task-tabular-yaml",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-config-json",
+                      "writing-task-config-json",
+                      "modifying-task-config-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-config-jsonc",
+                      "writing-task-config-jsonc",
+                      "modifying-task-config-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-config-json5",
+                      "writing-task-config-json5",
+                      "modifying-task-config-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-config-hjson",
+                      "writing-task-config-hjson",
+                      "modifying-task-config-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-config-toml",
+                      "writing-task-config-toml",
+                      "modifying-task-config-toml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-config-xml",
+                      "writing-task-config-xml",
+                      "modifying-task-config-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-tabular-toml",
-              "writing-task-tabular-toml",
-              "modifying-task-tabular-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-tabular-xml",
-              "writing-task-tabular-xml",
-              "modifying-task-tabular-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-yaml",
-            "quiz-yaml",
-            "reading-task-tabular-yaml",
-            "writing-task-tabular-yaml",
-            "modifying-task-tabular-yaml",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-config-json",
-                "writing-task-config-json",
-                "modifying-task-config-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-config-jsonc",
-                "writing-task-config-jsonc",
-                "modifying-task-config-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-config-json5",
-                "writing-task-config-json5",
-                "modifying-task-config-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-hjson",
-              "quiz-hjson",
-              "reading-task-config-hjson",
-              "writing-task-config-hjson",
-              "modifying-task-config-hjson",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-toml",
+                  "quiz-toml",
+                  "reading-task-config-toml",
+                  "writing-task-config-toml",
+                  "modifying-task-config-toml",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-tabular-json",
+                      "writing-task-tabular-json",
+                      "modifying-task-tabular-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-tabular-jsonc",
+                      "writing-task-tabular-jsonc",
+                      "modifying-task-tabular-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-tabular-json5",
+                      "writing-task-tabular-json5",
+                      "modifying-task-tabular-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-tabular-hjson",
+                      "writing-task-tabular-hjson",
+                      "modifying-task-tabular-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-tabular-yaml",
+                      "writing-task-tabular-yaml",
+                      "modifying-task-tabular-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-tabular-xml",
+                      "writing-task-tabular-xml",
+                      "modifying-task-tabular-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-config-toml",
-              "writing-task-config-toml",
-              "modifying-task-config-toml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-config-xml",
-              "writing-task-config-xml",
-              "modifying-task-config-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-toml",
-            "quiz-toml",
-            "reading-task-config-toml",
-            "writing-task-config-toml",
-            "modifying-task-config-toml",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-tabular-json",
-                "writing-task-tabular-json",
-                "modifying-task-tabular-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-tabular-jsonc",
-                "writing-task-tabular-jsonc",
-                "modifying-task-tabular-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-tabular-json5",
-                "writing-task-tabular-json5",
-                "modifying-task-tabular-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-hjson",
-              "quiz-hjson",
-              "reading-task-tabular-hjson",
-              "writing-task-tabular-hjson",
-              "modifying-task-tabular-hjson",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-toml",
+                  "quiz-toml",
+                  "reading-task-tabular-toml",
+                  "writing-task-tabular-toml",
+                  "modifying-task-tabular-toml",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-config-json",
+                      "writing-task-config-json",
+                      "modifying-task-config-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-config-jsonc",
+                      "writing-task-config-jsonc",
+                      "modifying-task-config-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-config-json5",
+                      "writing-task-config-json5",
+                      "modifying-task-config-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-config-hjson",
+                      "writing-task-config-hjson",
+                      "modifying-task-config-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-config-yaml",
+                      "writing-task-config-yaml",
+                      "modifying-task-config-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-xml",
+                      "quiz-xml",
+                      "reading-task-config-xml",
+                      "writing-task-config-xml",
+                      "modifying-task-config-xml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-tabular-yaml",
-              "writing-task-tabular-yaml",
-              "modifying-task-tabular-yaml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-tabular-xml",
-              "writing-task-tabular-xml",
-              "modifying-task-tabular-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-toml",
-            "quiz-toml",
-            "reading-task-tabular-toml",
-            "writing-task-tabular-toml",
-            "modifying-task-tabular-toml",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-config-json",
-                "writing-task-config-json",
-                "modifying-task-config-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-config-jsonc",
-                "writing-task-config-jsonc",
-                "modifying-task-config-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-config-json5",
-                "writing-task-config-json5",
-                "modifying-task-config-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-hjson",
-              "quiz-hjson",
-              "reading-task-config-hjson",
-              "writing-task-config-hjson",
-              "modifying-task-config-hjson",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-xml",
+                  "quiz-xml",
+                  "reading-task-config-xml",
+                  "writing-task-config-xml",
+                  "modifying-task-config-xml",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-tabular-json",
+                      "writing-task-tabular-json",
+                      "modifying-task-tabular-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-tabular-jsonc",
+                      "writing-task-tabular-jsonc",
+                      "modifying-task-tabular-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-tabular-json5",
+                      "writing-task-tabular-json5",
+                      "modifying-task-tabular-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-tabular-hjson",
+                      "writing-task-tabular-hjson",
+                      "modifying-task-tabular-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-tabular-yaml",
+                      "writing-task-tabular-yaml",
+                      "modifying-task-tabular-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-tabular-toml",
+                      "writing-task-tabular-toml",
+                      "modifying-task-tabular-toml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-config-yaml",
-              "writing-task-config-yaml",
-              "modifying-task-config-yaml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-xml",
-              "quiz-xml",
-              "reading-task-config-xml",
-              "writing-task-config-xml",
-              "modifying-task-config-xml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },    
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-xml",
-            "quiz-xml",
-            "reading-task-config-xml",
-            "writing-task-config-xml",
-            "modifying-task-config-xml",
-            "post-task-survey"
-          ]
           },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-tabular-json",
-                "writing-task-tabular-json",
-                "modifying-task-tabular-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-tabular-jsonc",
-                "writing-task-tabular-jsonc",
-                "modifying-task-tabular-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-tabular-json5",
-                "writing-task-tabular-json5",
-                "modifying-task-tabular-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
+          {
+            "order": "fixed",
             "components": [
-              "tutorial-hjson",
-              "quiz-hjson",
-              "reading-task-tabular-hjson",
-              "writing-task-tabular-hjson",
-              "modifying-task-tabular-hjson",
-              "post-task-survey"
+              {
+                "order": "fixed",
+                "components": [
+                  "tutorial-xml",
+                  "quiz-xml",
+                  "reading-task-tabular-xml",
+                  "writing-task-tabular-xml",
+                  "modifying-task-tabular-xml",
+                  "post-task-survey"
+                ]
+              },
+              {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json",
+                      "quiz-json",
+                      "reading-task-config-json",
+                      "writing-task-config-json",
+                      "modifying-task-config-json",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-jsonc",
+                      "quiz-jsonc",
+                      "reading-task-config-jsonc",
+                      "writing-task-config-jsonc",
+                      "modifying-task-config-jsonc",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-json5",
+                      "quiz-json5",
+                      "reading-task-config-json5",
+                      "writing-task-config-json5",
+                      "modifying-task-config-json5",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-hjson",
+                      "quiz-hjson",
+                      "reading-task-config-hjson",
+                      "writing-task-config-hjson",
+                      "modifying-task-config-hjson",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-yaml",
+                      "quiz-yaml",
+                      "reading-task-config-yaml",
+                      "writing-task-config-yaml",
+                      "modifying-task-config-yaml",
+                      "post-task-survey"
+                    ]
+                  },
+                  {
+                    "order": "fixed",
+                    "components": [
+                      "tutorial-toml",
+                      "quiz-toml",
+                      "reading-task-config-toml",
+                      "writing-task-config-toml",
+                      "modifying-task-config-toml",
+                      "post-task-survey"
+                    ]
+                  }
+                ]
+              }
             ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-tabular-yaml",
-              "writing-task-tabular-yaml",
-              "modifying-task-tabular-yaml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-tabular-toml",
-              "writing-task-tabular-toml",
-              "modifying-task-tabular-toml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        },
-      {"order":"fixed",
-        "components": [
-          {"order":"fixed",
-          "components": [
-            "tutorial-xml",
-            "quiz-xml",
-            "reading-task-tabular-xml",
-            "writing-task-tabular-xml",
-            "modifying-task-tabular-xml",
-            "post-task-survey"
-          ]
-          },
-          {"order":"latinSquare",
-          "numSamples": 1,
-          "components": [
-            {"order":"fixed",
-              "components": [
-                "tutorial-json",
-                "quiz-json",
-                "reading-task-config-json",
-                "writing-task-config-json",
-                "modifying-task-config-json",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-jsonc",
-                "quiz-jsonc",
-                "reading-task-config-jsonc",
-                "writing-task-config-jsonc",
-                "modifying-task-config-jsonc",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-              "components": [
-                "tutorial-json5",
-                "quiz-json5",
-                "reading-task-config-json5",
-                "writing-task-config-json5",
-                "modifying-task-config-json5",
-                "post-task-survey"
-              ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-hjson",
-              "quiz-hjson",
-              "reading-task-config-hjson",
-              "writing-task-config-hjson",
-              "modifying-task-config-hjson",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-yaml",
-              "quiz-yaml",
-              "reading-task-config-yaml",
-              "writing-task-config-yaml",
-              "modifying-task-config-yaml",
-              "post-task-survey"
-            ]
-            },
-            {"order":"fixed",
-            "components": [
-              "tutorial-toml",
-              "quiz-toml",
-              "reading-task-config-toml",
-              "writing-task-config-toml",
-              "modifying-task-config-toml",
-              "post-task-survey"
-            ]
-            }]
-          }]
-        }]},   
+          }
+        ]
+      },
       "$nasa-tlx.co.nasa-tlx",
       {
-        "components": [
-            "post-study-survey"
-        ],
+        "components": ["post-study-survey"],
         "order": "fixed",
-        "skip": [        {
-          "name": "post-study-survey",
-          "check": "response",
-          "responseId": "q1",
-          "to": "end",
-          "comparison": "notEqual",
-          "value": "___impossibleAnswer"
-        }]
+        "skip": [
+          {
+            "name": "post-study-survey",
+            "check": "response",
+            "responseId": "q1",
+            "to": "end",
+            "comparison": "notEqual",
+            "value": "___impossibleAnswer"
+          }
+        ]
       },
       {
-        "components": [
-            "unqualified"
-        ],
+        "components": ["unqualified"],
         "order": "fixed",
         "id": "unqualified"
       }
