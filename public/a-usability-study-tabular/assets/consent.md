@@ -16,7 +16,7 @@ have access to this data. Any publication or presentation of the data will not i
 
 **Reward:** $7.5.
 
-For more information about this research or about the rights of research participants, or in case of research-related injury, contact: REDACTED. In addition, you may contact the IRB department, Tel. (801) 581-3655, Email: IRB@hsc.utah.edu.
+For more information about this research or about the rights of research participants, or in case of research-related injury, contact: REDACTED.
 
 Your participation in this research is voluntary. Your refusal to participate will not result in any penalty to you or any loss of benefits to which you may otherwise be entitled. You may decide to stop participating in the research at any time without penalty or loss of other benefits. The project investigators retain the right to cancel or postpone the experimental procedures at any time they see fit.
 
