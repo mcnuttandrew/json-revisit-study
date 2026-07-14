@@ -9,7 +9,7 @@
     "organizations": []
   },
   "uiConfig": {
-    "contactEmail": "REDACTED",
+    "contactEmail": "shiyi.he@utah.edu",
     "helpTextPath": "a-usability-study-tabular/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,

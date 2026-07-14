@@ -3,13 +3,13 @@
   "studyMetadata": {
     "title": "Data Serialization Formats Study",
     "version": "pilot",
-    "authors": [""],
+    "authors": ["Shiyi He", "Andrew McNutt"],
     "date": "2024-11-18",
     "description": "A User Study on the usability of Data Serialization Formats.",
     "organizations": []
   },
   "uiConfig": {
-    "contactEmail": "",
+    "contactEmail": "shiyi.he@utah.edu",
     "helpTextPath": "a-usability-study/assets/help.md",
     "logoPath": "revisitAssets/revisitLogoSquare.svg",
     "withProgressBar": true,
